@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    top:50px;
+}   
+header nav {
+    text-align: right;
+    background-color:#8f32a1 ;
+    position: fixed;
+    width: 100%;
+    margin-right: 50px;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif; 
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #F2F2F2;
+}
+.info{
+   margin-top: 10px; 
+   background-color:rgb(228, 173, 233);
+   padding-bottom: 10px;
+   
+
+}
+.info img{
+    width: 130x;
+    height: 155px;
+    border-radius: 50%;
+    float:left;
+    margin-right: 100px;
+}
+.contactInfo{
+    padding-top: 60px;
+}
+.contactInfo h2{
+    color: #71308f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder; 
+    word-spacing: 5px;
+    text-shadow: 1px 1px 1px rgb(75, 74, 74);
+    
+}
+.contactInfo p{
+    color:#71308f;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+.summary{
+    margin-top: 30px;
+}
+.summary h2{
+    color: #e0ebec;  
+}
+.summary ul li{
+    padding:10px 0px;
+    color: #71308f; 
+    font-weight: bolder;
+    background-color:antiquewhite;
+}
+.summary ul li::before{
+    content: '✍️';
+    font-size: larger;
+    padding-right: 20px;
+}
+.summary ul li::selection{
+    background-color: rgb(204, 181, 140);
+}
+
+.education h2{
+    color: #0D5C63; 
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.education table,th,tr,td{
+    border: 1px solid #0D5C63;
+    border-collapse: collapse;
+}
+
+.education table th, td{
+    padding: 10px;
+}
+#Professional{
+    background-color:rgb(219, 128, 128)
+}
+#tech{
+    background-color: rgb(118, 113, 196);
+    color:azure;
+}
+#tech1{
+    background-color:rgb(140, 215, 218) ;
+    color:rgb(170, 17, 76)
+}
+#eductional{
+    background-color: rgb(199, 216, 41);
+}
+#eductionhead{
+    background-color: rgb(226, 157, 131);
+    color:rgb(179, 33, 110);
+}
+#eductionbody{
+    background-color: rgb(223, 156, 156);
+    color:darkblue;
+}
+#personName{
+  background-color: rgb(195, 236, 238);
+  padding-bottom: 10px;
+  color:midnightblue;
+  padding-left:10px;
+}
+#img1{
+    border-radius: 60px;
+}
+#family{
+    background-color:rgb(123, 177, 231);
+}
+#hobby{
+    background-color: lightpink;
+}
+#achievements{
+    background-color: rgb(181, 139, 202);
+}
+#follow{
+    text-align: end;
+    background-color: lightblue;
+    color:mediumvioletred;
+}
+
